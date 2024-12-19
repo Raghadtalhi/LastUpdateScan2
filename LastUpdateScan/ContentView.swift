@@ -27,6 +27,7 @@ struct ContentView: View {
                         self.showScannerSheet = true
                     }, label: {
                         Image(systemName: "doc.text.viewfinder")
+                        
                             .font(.title)
                     })
                     .sheet(isPresented: $showScannerSheet, content: {
